@@ -1,0 +1,18 @@
+---
+title: "Testing RMD for assignment"
+author: "Wansu Qiu"
+date: '2022-03-08'
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Printing Hello World
+
+```{r echo = FALSE}
+print("Hello_World")
+```
+
+

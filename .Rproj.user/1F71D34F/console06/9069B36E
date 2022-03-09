@@ -7,3 +7,103 @@ For more details, please visit https://support.apple.com/kb/HT208050.
 ]0;~/Documents/Temp_add_version_controlThinnerBanana:Temp_add_version_control wansuqiu$ cd[K[Kgit init
 Initialized empty Git repository in /Users/wansuqiu/Documents/Temp_add_version_control/.git/
 ]0;~/Documents/Temp_add_version_controlThinnerBanana:Temp_add_version_control wansuqiu$ git add .
+]0;~/Documents/Temp_add_version_controlThinnerBanana:Temp_add_version_control wansuqiu$ git commit -m"[K "Initial  Commit [K"
+[master (root-commit) 7010c49] Initial Commit
+ 6 files changed, 88 insertions(+)
+ create mode 100644 .Rproj.user/1F71D34F/console06/9069B36E
+ create mode 100644 .Rproj.user/1F71D34F/console06/9069B36E.env
+ create mode 100644 .Rproj.user/1F71D34F/console06/INDEX001
+ create mode 100644 .Rproj.user/1F71D34F/sources/s-D9CE011F/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 Temp_add_version_control.Rproj
+]0;~/Documents/Temp_add_version_controlThinnerBanana:Temp_add_version_control wansuqiu$ git remote add origin  https://github.com/CartesianPhoenix/Temp_add_version_control.git
+]0;~/Documents/Temp_add_version_controlThinnerBanana:Temp_add_version_control wansuqiu$ git branch -M main
+]0;~/Documents/Temp_add_version_controlThinnerBanana:Temp_add_version_control wansuqiu$ git push -u origin mai n
+Counting objects: 14, done.
+Delta compression using up to 4 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:   7% (1/14)   Writing objects:  14% (2/14)   Writing objects:  21% (3/14)   Writing objects:  28% (4/14)   Writing objects:  35% (5/14)   Writing objects:  42% (6/14)   Writing objects:  50% (7/14)   Writing objects:  57% (8/14)   Writing objects:  64% (9/14)   Writing objects:  71% (10/14)   Writing objects:  78% (11/14)   Writing objects:  85% (12/14)   Writing objects:  92% (13/14)   Writing objects: 100% (14/14)   Writing objects: 100% (14/14), 2.59 KiB | 884.00 KiB/s, done.
+Total 14 (delta 0), reused 0 (delta 0)
+To https://github.com/CartesianPhoenix/Temp_add_version_control.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+]0;~/Documents/Temp_add_version_controlThinnerBanana:Temp_add_version_control wansuqiu$ 
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[KThinnerBanana:Temp_add_version_control wansuqiu$ cd[K[Kgit status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/1F71D34F/console06/9069B36E[m
+	[31mmodified:   .Rproj.user/1F71D34F/console06/INDEX001[m
+	[31mdeleted:    .Rproj.user/1F71D34F/sources/s-D9CE011F/lock_file[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+	[31mHello_World.Rmd[m
+	[31mPrint-test.docx[m
+	[31mTestingRMD.Rmd[m
+	[31mTestingRMD.docx[m
+	[31mTestingRMD.log[m
+	[31mTestingRMD.tex[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/Temp_add_version_controlThinnerBanana:Temp_add_version_control wansuqiu$ git add -a[KA
+\]0;~/Documents/Temp_add_version_controlThinnerBanana:Temp_add_version_control wansuqiu$ \[Kgit status [K
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .Rproj.user/1F71D34F/console06/9069B36E[m
+	[32mmodified:   .Rproj.user/1F71D34F/console06/9069B36E.env[m
+	[32mmodified:   .Rproj.user/1F71D34F/console06/INDEX001[m
+	[32mdeleted:    .Rproj.user/1F71D34F/sources/s-D9CE011F/lock_file[m
+	[32mnew file:   .gitignore[m
+	[32mnew file:   Hello_World.Rmd[m
+	[32mnew file:   Print-test.docx[m
+	[32mnew file:   TestingRMD.Rmd[m
+	[32mnew file:   TestingRMD.docx[m
+	[32mnew file:   TestingRMD.log[m
+	[32mnew file:   TestingRMD.tex[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/1F71D34F/console06/9069B36E[m
+
+]0;~/Documents/Temp_add_version_controlThinnerBanana:Temp_add_version_control wansuqiu$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .Rproj.user/1F71D34F/console06/9069B36E[m
+	[32mmodified:   .Rproj.user/1F71D34F/console06/9069B36E.env[m
+	[32mmodified:   .Rproj.user/1F71D34F/console06/INDEX001[m
+	[32mdeleted:    .Rproj.user/1F71D34F/sources/s-D9CE011F/lock_file[m
+	[32mnew file:   .gitignore[m
+	[32mnew file:   Hello_World.Rmd[m
+	[32mnew file:   Print-test.docx[m
+	[32mnew file:   TestingRMD.Rmd[m
+	[32mnew file:   TestingRMD.docx[m
+	[32mnew file:   TestingRMD.log[m
+	[32mnew file:   TestingRMD.tex[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/1F71D34F/console06/9069B36E[m
+
+]0;~/Documents/Temp_add_version_controlThinnerBanana:Temp_add_version_control wansuqiu$ git add -A
